@@ -1,0 +1,44 @@
+/* ==UserStyle==
+@name        GRITECH Gold pour Rakazo
+@namespace   gritech.rakazo
+@version     0.1.0
+@description Thème sombre doré (noir chaud + or) pour Rakazo, via les variables de couleur de l'app.
+@license     Apache-2.0
+==/UserStyle== */
+
+@-moz-document domain("127.0.0.1"), domain("localhost"), regexp("https?://[^/]*\\.ts\\.net/.*") {
+  :root,
+  [data-theme="dark"] {
+    --background: #0b0905;
+    --dialog: #15110a;
+    --card: #1d1810;
+    --popover: #1d1810;
+    --muted: #1d1810;
+    --glass-fill: #241d10;
+    --glass-stroke: #d4af3733;
+
+    --primary: #d4af37;
+    --primary-foreground: #14100a;
+    --primary-hover: #e6c35c;
+    --primary-disabled: #d4af3721;
+
+    --chat-user: #3a2f10;
+    --chat-user-foreground: #f8e7a8;
+
+    --accent: #d4af371a;
+    --secondary: #d4af370f;
+    --border: #d4af372b;
+    --input: #d4af3744;
+    --ring: #d4af37;
+
+    --sidebar: #0b0905;
+    --sidebar-border: #d4af371f;
+    --sidebar-accent: #d4af3724;
+
+    --link: #e6c35c;
+    --unread: #e6c35c;
+    --status-working: #e6c35c;
+    --scrollbar: #d4af3744;
+    --scrollbar-hover: #d4af3788;
+  }
+}
